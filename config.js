@@ -2,9 +2,9 @@ module.exports = {
     //IMPORTANT: If you need help with the installation of Green-bot, you can join our support server here: https://green-bot.app/discord
     prefix: "*",
     // Your discord bot token. https://discord.com/developpers/bots
-    token: "ODc5MjExOTU0Mzg2OTIzNTUw.YSMb8A.Y7BbP9WButTjUsyiohUsWI8eMFw",
+    token: "..",
     // Your ID
-    ownerID: "766040394601332756",
+    ownerID: "",
     // Your name/tag
     ownerName: "swicy",
     //The footer of the embeds that the bot will send
