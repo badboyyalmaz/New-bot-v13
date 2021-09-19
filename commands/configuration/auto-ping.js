@@ -6,7 +6,7 @@ const giveawayModel = require('../../database/models/giveaway');
 
 module.exports = {
         name: 'autoping',
-        description: 'Configure le système de ping automatique des nouveaux membres dans un salon.',
+        description: 'Configura el sistema de ping automático para nuevos miembros en un canal.',
         aliases: ['ping-auto', 'autoping', ],
         guildOnly: true,
         cat: 'configuration',

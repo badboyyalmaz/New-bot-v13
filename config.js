@@ -2,38 +2,38 @@ module.exports = {
     //IMPORTANT: If you need help with the installation of Green-bot, you can join our support server here: https://green-bot.app/discord
     prefix: "*",
     // Your discord bot token. https://discord.com/developpers/bots
-    token: "TOKEN",
+    token: "ODc5MjExOTU0Mzg2OTIzNTUw.YSMb8A.Y7BbP9WButTjUsyiohUsWI8eMFw",
     // Your ID
-    ownerID: "688402229245509844",
+    ownerID: "766040394601332756",
     // Your name/tag
-    ownerName: "Pauldb09",
+    ownerName: "swicy",
     //The footer of the embeds that the bot will send
-    footer: "Green-bot | green-bot.app ",
+    footer: "Hi (ﾉ◕ヮ◕)ﾉ*.✧",
     // The id of the support
-    supportID: "729774155037278268",
+    supportID: "803484095627132939",
     // The status of your bot
-    game: "Green-bot | green-bot.app ",
+    game: "que",
     //the color of the embeds
     color: "#3A871F",
     // OPTIONAL: Your top.gg token.
-    topgg: "TOPGG_TOKEN",
+    topgg: "",
     // OPTIONAL: The link of your bot's top.gg page.
-    topgg_url: "https://top.gg/bot/783708073390112830",
+    topgg_url: "",
     //the default bot language. fr or en
     defaultLanguage: "en",
     // If dev mod is enabled
     devMode: true,
     // The server where you test the commands
-    devServer: "782661233622515772",
+    devServer: "803484095627132939",
     // If you want to log every command,event etc. Usefull for debuging
     logAll: true,
     // If you want to test your configuration before starting the bot
     checkConfig: null,
     // The categories. Put null to enabled to disable a category
     categories: {
-        configuration: { enabled: true, name: "Configuration", desc: "Setup the bot with the configuration commands" },
-        moderation: { enabled: true, name: "Moderation", desc: "Moderate your server easylly with {botName}" },
-        levelling: { enabled: true, name: "Levelling", desc: "Creates a rank in your server" },
+        configuration: { enabled: true, name: "Configuration", desc: "Configurar el bot con los comandos de configuración" },
+        moderation: { enabled: true, name: "Moderation", desc: "Modere su servidor fácilmente con {botName}" },
+        levelling: { enabled: true, name: "Levelling", desc: "Crea un rango en su servidor" },
         utilities: { enabled: true, name: "Utilities", desc: "Some usefull commands", aliases: ["general"] },
         music: { enabled: true, name: "Music", desc: "Listen music with Green-bot" },
         games: { enabled: null, name: "Games", desc: "Have fun with friends using Green-bot" },
@@ -50,7 +50,7 @@ module.exports = {
     //Database
     database: {
         // The url of your mongodb database. Check mongodb.org
-        MongoURL: "MONGOURL",
+        MongoURL: "mongodb://reymaicer:6PAYaywBdbS53YYI@linadb-shard-00-00.i6z79.mongodb.net:27017/innabot?ssl=true&replicaSet=atlas-ou5f1g-shard-0&authSource=admin&retryWrites=true&w=majority",
         // If you want to cache the database. For big bots
         cached: false,
         delay: 300000 * 4,

@@ -32,6 +32,17 @@ module.exports = {
                 let x = await message.translate("LANGUAGE_GOOD_SET")
                 return message.reply({ content: x, allowedMentions: { repliedUser: false } })
             }
+        }
+        if (args[0] === 'es' || args[0] === 'esp' || args[0] === 'español') {
+            if (message.guild.settings.lang === 'es') {
+                message.errorMessage(`Mi lenguaje en este servidor ya es español.`)
+                return;
+            } else {
+                const newchannel = await guildData.findOneAndUpdate({ serverID: message.guild.id, }, { $set: { lang: "es" } }, { new: true });
+                message.guild.settings.lang = "es";
+                let x = await message.translate("LANGUAGE_GOOD_SET")
+                return message.reply({ content: x, allowedMentions: { repliedUser: false } })
+            }
         } else {
             message.errorMessage(no)
 

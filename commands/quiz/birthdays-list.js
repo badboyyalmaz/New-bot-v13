@@ -3,7 +3,7 @@ const birthday = require('../../database/models/birthday');
 const moment = require("moment");
 module.exports = {
         name: 'birthdays-list',
-        description: 'Donne la liste des anniversaires du serveur',
+        description: 'Muestra los cumpleaños del servidor.',
         cooldown: 10,
         cat: 'games',
         botpermissions: ["SEND_MESSAGES", "EMBED_LINKS", ],

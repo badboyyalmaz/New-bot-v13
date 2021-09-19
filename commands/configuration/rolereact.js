@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const rrmodel = require('../../database/models/rr');
 const { parse } = require("twemoji-parser");
 const prompts = [
-    "Bonjour ! Commencez par me donner le rôle qui devra être donné!",
-    "Super ! et maintenant donnez l'emoji qui devra déclencher l'ajout de rôle . Seulement les emojis de base sont supportés .",
+    "Buenos dias ! ¡Empiece por darme el rol que se le debe dar! ",
+    "¡Genial! Y ahora da el emoji que debería activar la adición de rol. Solo se admiten emojis básicos.",
 
 ]
 module.exports = {

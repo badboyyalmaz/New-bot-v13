@@ -1,7 +1,7 @@
 const guildData = require('../../database/models/guildData');
 module.exports = {
     name: 'anti-pub',
-    description: 'Active ou désactive le système contre les invitations',
+    description: 'Activar o desactivar el sistema contra invitaciones',
     cat: 'antiraid',
     args: true,
     usage: 'on/off',

@@ -1,46 +1,46 @@
 [{
-        "question": "Quel est le plus long mot français ?",
+        "question": "¿Cuál es la palabra francesa más larga?",
         "reponses": ["Intergouvernementalisations"]
     },
     {
-        "question": "Quand a commencée la seconde guerre mondiale ?",
+        "question": "¿Cuándo empezó la Segunda Guerra Mundial?",
         "reponses": ["1939"]
     },
     {
-        "question": "Quel est le 45ème président des Etats-Unis ?",
+        "question": "¿Quién es el 45º presidente de los Estados Unidos?",
         "reponses": ["Donald Trump", "Trump"]
     },
     {
-        "question": "Quelle est la vidéo la plus regardée au monde sur YouTube ?",
+        "question": "¿Cuál es el video más visto del mundo en YouTube?",
         "reponses": ["Despacito"]
     },
     {
-        "question": "Quelle est la plus grosse planète du système solaire ?",
+        "question": "¿Cuál es el planeta más grande del sistema solar?",
         "reponses": ["Jupiter"]
     },
     {
-        "question": "Je suis fraiche chez le boulanger et magique chez le magicien, qui suis-je ?",
+        "question": "Soy fresco en la panadería y mágico en el mago, ¿quién soy?",
         "reponses": ["Baguette"]
     },
 
     {
-        "question": "Quelle est la plus grande tour du monde ?",
+        "question": "¿Cuál es la torre más alta del mundo?",
         "reponses": ["Burj Khalifa"]
     },
     {
-        "question": "En quelle année a été créé YouTube ?",
+        "question": "¿En qué año se creó YouTube?",
         "reponses": ["2005"]
     },
     {
-        "question": "En quelle année a été créé Discord ?",
+        "question": "¿En qué año se creó Discord?",
         "reponses": ["2015"]
     },
     {
-        "question": "En quelle année a été créé Discord ?",
+        "question": "¿En qué año se creó Discord?",
         "reponses": ["2015"]
     },
     {
-        "question": "Dans quelle ville les premiers cas de Covid-19 sont-ils apparus ?",
+        "question": "¿En qué ciudad aparecieron los primeros casos de Covid-19?",
         "reponses": ["Wuhan"]
     }
 

@@ -1,7 +1,7 @@
 const guildData = require('../../database/models/guildData');
 module.exports = {
     name: 'antiraid-logs',
-    description: 'Défini le salon des logs de l\'antiraid',
+    description: 'Defina el canal de logs del antiraid',
     cat: 'antiraid',
     args: true,
     guildOnly: true,

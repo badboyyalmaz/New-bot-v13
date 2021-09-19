@@ -7,7 +7,7 @@ const CustomsQuizs = require('../../database/models/CustomsQuizs');
 const math = require('mathjs')
 module.exports = {
         name: 'calculation',
-        description: 'Crée un calcul aléatoire',
+        description: 'Crea un cálculo aleatorio',
         aliases: ['calcul-mental', 'questionnaire', 'calcul'],
         cooldown: 10,
         cat: 'games',

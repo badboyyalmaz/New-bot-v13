@@ -29,11 +29,11 @@ module.exports = {
                     let findReal = await sugg.findOne({ serverID: message.guild.id, messageID: messageID })
                     if (!findReal) return message.errorMessage(lang.NOT_A_SUGG)
                     const embed = new Discord.MessageEmbed()
-                        .setAuthor(`❌ Suggestion ${lang.deniedBy} ${message.author.username}`, message.author.displayAvatarURL({ dynamic: true, size: 512 }))
+                        .setAuthor(`❌ Sugerencia ${lang.deniedBy} ${message.author.username}`, message.author.displayAvatarURL({ dynamic: true, size: 512 }))
                         .addField(lang.comment, `${reason.length > 500 ? reason.slice(0, 500) + '...':reason}`, true)
                         .addField(lang.field2, `<@${findReal.autorID}>`, true)
                         .setDescription(findReal.content)
-                        .setFooter(`Green-bot - www.green-bot.app`, message.client.user.displayAvatarURL({ dynamic: true, size: 512 }))
+                        .setFooter(`Powered by Inna`, message.client.user.displayAvatarURL({ dynamic: true, size: 512 }))
                         .setColor("#982318")
                         .setTimestamp();
                     msg.edit({ embeds: [embed] })

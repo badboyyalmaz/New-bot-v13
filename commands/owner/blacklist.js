@@ -11,9 +11,9 @@ module.exports = {
         if (args[0] === "add") {
             const findData = await guildData.findOne({ serverID: args[1] })
             if (!findData) {
-                return message.reply("`❌` This guild doesn't exist or isn't in the database")
+                return message.reply("`❌` Este servidor no existe o no está en la base de datos")
             } else {
-                if (findData.backlist) return message.reply("`❌` This guild is already blacklisted")
+                if (findData.backlist) return message.reply("`❌` Este  servidor ya está en la lista negra")
                 const newchannel = await guildData.findOneAndUpdate({ serverID: args[1] }, { $set: { backlist: true } }, { new: true });
                 return message.reply("`✅` Server with ID `" + args[1] + "` has been succesfully blacklisted")
             }

@@ -4,7 +4,7 @@ const moment = require("moment");
 
 module.exports = {
     name: 'birthday',
-    description: 'Configure la date de votre anniversaire',
+    description: 'Configura la fecha de tu cumpleaños',
     aliases: ['set-birthday'],
     cooldown: 10,
     cat: 'games',

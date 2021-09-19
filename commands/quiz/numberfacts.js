@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const fetch = require("node-fetch")
 module.exports = {
     name: 'numberfacts',
-    description: 'Gives a ramdom fact about a number',
+    description: 'Da un hecho aleatorio sobre un número.',
     args: true,
     usage: "<number>",
     cat: 'utilities',

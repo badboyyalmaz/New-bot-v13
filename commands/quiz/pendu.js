@@ -5,7 +5,7 @@ const { hangman } = require("reconlx");
 const ms = require('ms');
 module.exports = {
         name: 'hangman',
-        description: 'Crée un pendu',
+        description: 'Crea un ahorcado',
         aliases: ['pendu'],
         args: true,
         disabled: true,

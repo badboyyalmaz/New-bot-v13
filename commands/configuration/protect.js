@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const Welcome = require('../../database/models/Welcome');
 module.exports = {
         name: 'protect',
-        description: 'Active ou désactive un protection sur le serveur',
+        description: 'Habilita o deshabilita la protección en el servidor.',
         usage: 'enableAll/disableAll',
         exemple: 'enableAll',
         cat: 'antiraid',

@@ -1,4 +1,6 @@
 const fs = require("fs"),
+express = require('express'),
+app = express()
     config = require("./config.js");
 if (config.checkConfig) {
     const { checkConfig } = require("./util/functions")
@@ -84,6 +86,23 @@ const init = async() => {
             });
         });
 };
+
+//EXPRESS
+
+
+
+app.get('/', (req,res)=>{
+  res.end("My bot is online")
+})
+
+function live(){
+  app.listen(3000, function(){
+  console.log("bot is online")
+})}
+live();
+
+
+
 init(), client.login(config.token).catch(err => {
     console.log("[Discord login] Please provide a valid discord bot token\n" + err + "")
 });

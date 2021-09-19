@@ -1,7 +1,7 @@
 const CustomsQuizs = require('../../database/models/CustomsQuizs');
 module.exports = {
     name: 'create-quiz',
-    description: 'Crée un quiz personnalisé pour le serveur.',
+    description: 'Crea un cuestionario personalizado para el servidor.',
     aliases: ['quiz-create', 'c-quiz'],
     guildOnly: true,
     cat: 'games',

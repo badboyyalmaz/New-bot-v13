@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const guild = require('../../database/models/guild');
 module.exports = {
         name: 'ignoreds',
-        description: 'Ajoute un role ou salon dans la liste des salons ignorés par l\'antiraid',
+        description: 'Agregue un rol o canal en la lista de canales ignorados por el antiraid',
         cat: 'antiraid',
         args: true,
         usage: '<channel || role > <add || remove || list> @role/#channel',
